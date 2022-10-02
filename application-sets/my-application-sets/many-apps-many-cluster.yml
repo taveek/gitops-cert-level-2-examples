@@ -27,3 +27,5 @@ spec:
       destination:
         server: '{{server}}'
         namespace: '{{path.basename}}'
+      syncPolicy:
+        automated: {}
